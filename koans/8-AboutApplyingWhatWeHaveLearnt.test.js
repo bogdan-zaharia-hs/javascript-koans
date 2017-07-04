@@ -1,4 +1,4 @@
-var _; //globals
+var _ = require('underscore');
 
 describe("About Applying What We Have Learnt", function() {
 

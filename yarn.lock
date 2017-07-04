@@ -1861,6 +1861,10 @@ uglify-to-browserify@~1.0.0:
   version "1.0.2"
   resolved "http://npm.hootops.com:8081/artifactory/api/npm/npm-virtual/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
 
+underscore@1.1.6:
+  version "1.1.6"
+  resolved "http://npm.hootops.com:8081/artifactory/api/npm/npm-virtual/underscore/-/underscore-1.1.6.tgz#6868da1bdd72d75285be0b4e50f228e70d001a2c"
+
 uuid@^3.0.0:
   version "3.1.0"
   resolved "http://npm.hootops.com:8081/artifactory/api/npm/npm-virtual/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"

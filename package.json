@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "jest": "20.0.4"
+    "jest": "20.0.4",
+    "underscore": "1.1.6"
   },
   "jest": {
     "setupFiles": [
