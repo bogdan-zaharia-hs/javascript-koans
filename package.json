@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "jest": "20.0.4"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/test/setupTests.js"
+    ]
   }
 }
