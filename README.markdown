@@ -15,22 +15,34 @@ more koans, more and more Javascript syntax will be introduced which will allow
 you to solve more complicated problems and use more advanced techniques.
 
 ## Running the Koans
-Simply navigate to the Javascript Koans folder using a file browser, and
-double click on KoansRunnner.html.
 
-Any browser will do, but for the best results Firefox or Chrome is
-recommended. More stack trace information shows up for javascript on these
-browsers.
+### Installing dependencies
+First, you need to have [node](https://nodejs.org/en/)(which also comes with npm) and then [yarn](https://yarnpkg.com/en/) installed:
+```sh
+$ npm i -g yarn
+```
 
-The first error will be in koans/1-AboutExpects.test.js. Fix the first test and
-refresh the browser. Rinse and repeat until all tests turn green.
+Next, after cloning this repo, install dependencies with:
+```sh
+$ yarn
+```
 
-The test runner used is [Jasmine](http://jasmine.github.io/) with a customized report viewer.
+### Solving koans
+For each file in `koans` folder, run the tests and make them pass one by one. The runner is in watch mode by default, so you just need to save the file and tests will run again.
 
-### Changelog
-*  v3 - Nov 2010  - Moved out of branch of functional-koans project, into own top level project
-*  v2 - Sept 2010 - Second version based on jasmine (Thanks Greg Malcolm!)
-*  v1 - July 2010 - First version based on jsTestDriver
+```sh
+$ yarn test koans/1-AboutExpects.test.js
+```
+
+### Suggested workflow
+You can make a branch for each test and have your teammates review that for you, and merge into master only after adjusting the code to pass the review.
+
+```sh
+$ (master) git checkout -b 1-AboutExpects
+$ (1-AboutExpects) git commit -m 'fix expect true'
+... maybe other commits
+$ (1-AboutExpects) git push origin 1-AboutExpects
+```
 
 ### Acknowledgements
 *  Dick Wall (the Java posse) - for bringing the idea of koans to my attention
